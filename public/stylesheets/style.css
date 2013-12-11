@@ -1,0 +1,68 @@
+#title{
+	text-align: center;
+}
+
+.panel-heading{
+	text-align: center;
+	height: 45px;
+}
+
+.head{
+	margin-top: 10px;
+}
+
+#containerMessages,#containerUsers{
+	height: 500px;
+	overflow-y: scroll;
+	border: 1px solid #eee;
+	margin-bottom: 15px;
+	background: #444;
+}
+
+.message{
+	padding: 5px 2px;
+	border: 1px solid #eee;
+	border-radius: 6px;
+}
+
+#formModal{
+	top: 15%;
+}
+
+#loginBtn{
+	width: 100%;
+}
+
+#formLogin{
+	margin-top: 15px;
+}
+
+.errorMsg{
+	height: 50px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.info{
+	height: 30px;
+	font-size: 14px;
+	padding: 3px 10px;
+	color: #3a87ad;
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1;
+	border-radius: 6px;
+}
+
+.disconnect{
+	height: 30px;
+	font-size: 14px;
+	padding: 3px 10px;
+	color: #3a87ad;
+	background-color: #d9edf7;
+	border: 1px solid #bce8f1;
+	border-radius: 6px;
+}
+#chatMsgs p,#containerUsers p{
+	border-radius: 8px;
+	padding: 4px;
+}

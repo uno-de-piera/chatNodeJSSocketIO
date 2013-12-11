@@ -1,0 +1,28 @@
+extends layout
+
+block content 
+  .row
+    #formModal.modal
+      .modal-dialog
+        .modal-content
+          .modal-header
+            h2.title-modal
+          .modal-body
+            p.formModal
+          .modal-footer
+    #title.well
+      h2 Bienvenido al chat
+    .col-md-9#containerMessages
+      .panel.panel-primary.head
+        .panel-heading
+          p Mensajes de la sala
+      #chatMsgs
+    .col-md-3#containerUsers
+      .panel.panel-primary.head
+        .panel-heading
+          p Usuarios
+      #chatUsers
+    .col-md-7#containerSendMessages
+      input.message.col-md-12.form-control(type="text",placeholder="Escribe un mensaje")
+    .col-md-2#containerSendMessages
+      button.btn.btn-large.btn-block.btn-primary.sendMsg() Enviar mensaje
